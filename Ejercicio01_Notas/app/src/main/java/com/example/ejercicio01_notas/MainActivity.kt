@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calcularProm() {
+        nada()
         val red = DecimalFormat("#.##")
         red.roundingMode = RoundingMode.DOWN
 
@@ -93,5 +94,8 @@ class MainActivity : AppCompatActivity() {
 
         val txtMayor:TextView = findViewById(R.id.txtMin)
         txtMayor.text = "El numero menor es: $menor"
+    }
+    private fun nada() {
+        print("nada")
     }
 }
