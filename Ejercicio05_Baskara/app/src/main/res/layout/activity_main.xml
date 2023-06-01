@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="393dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="9dp"
+        android:text="Raices de un polinomio usando el metodo Bhaskara"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCoefA"
+        android:layout_width="246dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="83dp"
+        android:ems="10"
+        android:hint="Ingrese el coeficiente a"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/txtCoefB"
+        android:layout_width="246dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="83dp"
+        android:ems="10"
+        android:hint="Ingrese el coeficiente b"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCoefA" />
+
+    <EditText
+        android:id="@+id/txtCoefC"
+        android:layout_width="246dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="83dp"
+        android:ems="10"
+        android:hint="Ingrese el coeficiente c"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCoefB" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="163dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="124dp"
+        android:text="Calcular"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/txtViewResultado"
+        android:layout_width="162dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="125dp"
+        android:text="Resultado:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcular" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="255dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="78dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCoefC"
+        app:srcCompat="@drawable/bhaskara" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
