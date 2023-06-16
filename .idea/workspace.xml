@@ -5,46 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b3b60df-006c-4900-aafa-89394bb5fe0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/androidTest/java/com/example/ejercicio07_intentactivity/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/java/com/example/ejercicio07_intentactivity/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/test/java/com/example/ejercicio07_intentactivity/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/java/com/example/ejercicio07_intentactivity/actSecundario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/layout/activity_act_secundario.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio06_Login/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio06_Login/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio06_Login/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio06_Login/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/java/com/example/ejercicio07_intentactivity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/java/com/example/ejercicio07_intentactivity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686872487431</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sesion 15/06">
+      <created>1686873424322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686873424322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

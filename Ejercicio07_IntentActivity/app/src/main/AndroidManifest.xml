@@ -12,6 +12,14 @@
         android:theme="@style/Theme.Ejercicio07_IntentActivity"
         tools:targetApi="31">
         <activity
+            android:name=".actSecundario"
+            android:parentActivityName=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
