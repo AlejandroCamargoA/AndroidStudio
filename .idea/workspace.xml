@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b3b60df-006c-4900-aafa-89394bb5fe0f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/java/com/example/ejercicio07_intentactivity/actSecundario.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/layout/activity_act_secundario.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/java/com/example/ejercicio07_intentactivity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/java/com/example/ejercicio07_intentactivity/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio07_IntentActivity/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>

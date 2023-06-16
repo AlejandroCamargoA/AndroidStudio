@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, actSecundario::class.java).apply {
                 putExtra(MENSAJE_EXTRA, Usuario)
             }
+
             startActivity(intent)
         }
     }
