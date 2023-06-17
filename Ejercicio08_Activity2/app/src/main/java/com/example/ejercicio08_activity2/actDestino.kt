@@ -27,6 +27,5 @@ class actDestino : AppCompatActivity() {
         txtApPaterno.setText(apPaterno)
         txtApMaterno.setText(apMaterno)
         txtEdad.setText(edad)
-        print(nombre)
     }
 }
