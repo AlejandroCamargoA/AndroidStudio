@@ -12,7 +12,7 @@ class actDestino : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_act_destino)
 
-        val bundle = intent.getBundleExtra("intento")
+        val bundle = intent.extras
         val nombre = bundle?.getString("nombre")
         val apPaterno = bundle?.getString("apPaterno")
         val apMaterno = bundle?.getString("apMaterno")
