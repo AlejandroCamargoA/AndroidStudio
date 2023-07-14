@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
@@ -18,34 +20,43 @@
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="39dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="20dp"
         android:text="Clave: "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/txtUsuario"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="268dp"
         android:layout_marginEnd="38dp"
         android:ems="10"
-        android:hint="user1234"
+        android:hint="admin"
         android:inputType="textPersonName"
+        android:padding="10sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtClave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="13dp"
+        style="@style/TextoInput"
+        android:layout_width="219dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="1234"
         android:inputType="textPassword"
@@ -54,6 +65,7 @@
 
     <Button
         android:id="@+id/btnIniciarSesion"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"

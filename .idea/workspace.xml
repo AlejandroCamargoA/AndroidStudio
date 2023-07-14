@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b3b60df-006c-4900-aafa-89394bb5fe0f" name="Changes" comment="" />
+    <list default="true" id="6b3b60df-006c-4900-aafa-89394bb5fe0f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/6FNÇ/AndroidStudio/Ejercicio08_Activity2"
+    "last_opened_file_path": "D:/6FNÇ/AndroidStudio/Examen02_Login&promedio"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,12 +69,27 @@
       <option name="project" value="LOCAL" />
       <updated>1687477319915</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sesion 13/07">
+      <created>1689296323790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689296323790</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Sesion 13/07">
+      <created>1689296424618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689296424618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sesion 15/06" />
     <MESSAGE value="Sesion 16/06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sesion 16/06" />
+    <MESSAGE value="Sesion 13/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sesion 13/07" />
   </component>
 </project>

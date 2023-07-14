@@ -4,54 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".ActProcesarNotas">
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="124dp"
         android:text="Nombre:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="72dp"
         android:text="Nota1: "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
 
     <TextView
         android:id="@+id/textView5"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
         android:text="Nota2: "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView6"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
         android:text="Nota3: "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/txtNota1"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView4"
@@ -59,10 +65,11 @@
 
     <EditText
         android:id="@+id/txtNota2"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView5"
@@ -70,10 +77,11 @@
 
     <EditText
         android:id="@+id/txtNota3"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="17dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView6"
@@ -81,10 +89,11 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
-        android:layout_marginTop="117dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="121dp"
         android:onClick="CalcularPromedio"
         android:text="Procesar Notas"
@@ -94,12 +103,12 @@
 
     <EditText
         android:id="@+id/txtNombre"
+        style="@style/TextoInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="nombre"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />

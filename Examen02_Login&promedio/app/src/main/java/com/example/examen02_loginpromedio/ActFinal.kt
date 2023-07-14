@@ -34,10 +34,10 @@ class ActFinal : AppCompatActivity() {
 
         var estado = ""
 
-        if(promedio < 9){
+        if(promedio <= 9){
             estado = "Reprobado"
         }
-        else if(promedio < 12){
+        else if(promedio <= 12){
             estado = "Desaprobado"
         }
         else if(promedio <= 20){
