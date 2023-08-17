@@ -55,7 +55,6 @@ class actRetiroDeposito : AppCompatActivity() {
                     actualizarSaldoTextView()
                     etAccion.text.clear()
                 } else {
-                    // Mostrar mensaje de error o notificación
                     Toast.makeText(this, "Monto de retiro inválido", Toast.LENGTH_SHORT).show()
                 }
             }
@@ -70,7 +69,7 @@ class actRetiroDeposito : AppCompatActivity() {
     }
 
     private fun actualizarSaldoTextView() {
-        tvSaldoActual.text = "Saldo actual: $saldoActual"
+        tvSaldoActual.text = "Saldo actual: " + saldoActual + " S/."
     }
 
 }
